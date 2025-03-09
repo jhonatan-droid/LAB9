@@ -1,34 +1,79 @@
-/*Selector de elemento*/
-h1{
-    color: blue;
+body{
+    background-color: pink;
+}
+header{
+    background-color: cyan;
+    border-radius: 15px;
+    border: 5px solid black;
     text-align: center;
 }
-/*Selector de clases*/
-.texto{
-    font-size: large;
-    text-align: justify;
+header h1{
+    color: black;
+    text-align: center;
 }
-/*Selector de id*/
-#titulo{
-    color: brown;
-    text-align: left;
+header iframe{
+    background-color: white;
+    width:550px; 
+    height:50px; 
 }
-[href]{
-    color: blue;
+
+nav{
+    background-color: cyan;
+    padding: 6px;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: auto;
+    box-sizing: border-box;
 }
-[href="https://www.youtube.com/"]{
-    color: red;
+nav a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px; 
+    margin: 15px; 
+}
+nav a:hover{
+    color: blue;  
+}
+main{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    height: auto;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 7px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.6);
+}
+main div h3{
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: end;
 }
 .contenedor{
-    width: 550px;
-    border: 10px solid green;
-    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: auto;
+    text-align: justify;
+    background-color: lightgreen;
     margin: 5px;
-    box-sizing: content-box;
-}
-.contenedor ul{
-    background-color: brown;
+    padding: 5px;
     border-radius: 15px;
-    width: 500px;
-    border: 3px solid black;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.6);
+}
+.contenedor a:hover{
+    color: goldenrod;
+}
+footer{
+    
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: yellow;
 }
